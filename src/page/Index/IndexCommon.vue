@@ -1,9 +1,7 @@
 <template>
   <div class="container">
 
-    <div class="header flex space-between">
-      <div @click="selectNum(item)" class="header-num" v-for="item in num" :key="item">{{item}}</div>
-    </div>
+    
 
     <div class="chinese-code flex flex-center">
       <el-radio @change="deleteArray" v-model="radio" label="2">2位编码</el-radio>
